@@ -26,3 +26,5 @@ function Pokedex(props) {
     </div>
   );
 }
+
+export default Pokedex;
