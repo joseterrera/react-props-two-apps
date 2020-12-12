@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
 
-function CardList(){
+function CardList(props){
   const cards = props.cards.map(cardId => (
     <Card cardId={cardId} key={cardId} />
   ));
